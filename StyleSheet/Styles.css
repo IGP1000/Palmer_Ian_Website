@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: #FFFFFF;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+}
+
+/* header */
+.nav {
+    display: flex;
+    align-items: center;
+}
+header {
+    justify-content: center;
+}
+.Logo {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 39px;
+}
+.tabs {
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    color: #BE1F41;
+    padding: 0 8px;
+}
+.align-right {
+    align-items: end;
+}
+.content-center {
+    display: flex;
+    justify-items: center;
+}
+.max-width {
+    max-width: 1032px;
+    margin: 0 auto;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.col-5 {
+    padding: 0 6px;
+    flex-basis: 45%;
+}
+.col-7 {
+    flex-basis: 55%;
+    padding: 0 6px;
+}
+.full-height {
+    height: 100%;
+}
+.text-align-center {
+    text-align: center;
+}
+.hero-img {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.text-center {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Body */
+.Btn-1 {
+    font-size: 48px;
+    font-family: Viner Hand ITC;
+    color: #fed241;
+    border-style: solid;
+    border-color: #fed241;
+    border-width: 5px;
+    background-color: #be1f41;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.reserve-img-1 {
+    max-width: 397px;
+    object-fit: cover;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.specials-img {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+h4 {
+    font-size: 32px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #243D94;
+    margin-top: 65px;
+    margin-bottom: 35px;
+}
+.description {
+    font-family: "Eras ITC", "Eras Bold ITC", sans-serif;
+    font-size: 20px;
+    color: #243D94;
+    margin: 0;
+}
+h6 {
+    font-family: "Eras ITC", "Eras Medium ITC", sans-serif;
+    font-size: 16px;
+    color: #243D94;
+    margin: 0;
+    padding-top: 32px;
+}
+.ingredients {
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-size: 16px;
+    color: #243D94;
+    margin: 0;
+}
+.bakery-img {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.text-align-left {
+    text-align: left;
+}
+.padded {
+    padding: 0 14px;
+}
+.col-6 {
+    flex-basis: 50%;
+    padding: 0 6px;
+}
+
+/* footer */
+
+footer {
+    color: #BE1F41;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-size: 20px;
+}
+h3 {
+    font-family: 'Viner Hand ITC', sans-serif;
+    font-size: 24px;
+}
+.social-icons {
+    max-height: 43px;
+    padding: 3px;
+}
+.logo-small{
+    width: 109px;
+    padding-top: 20px;
+}
+.footer-links {
+    text-decoration: none;
+    color: #BE1F41;
+}
+.col-2 {
+    flex-basis: 16.6666666%;
+    padding: 0 6px;
+}
+.col-4 {
+    flex-basis: 33.333333%;
+    padding: 0 6px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    /* header */
+    
+    .hero-img {
+        padding-bottom: 60px;
+    }
+    .Logo {
+        flex-basis: 40%;
+        padding: 25px 0 10px 0;
+    }
+    .tabs {
+        font-size: 12px;
+    }
+
+    /* body */
+
+    .reserve-img-1 {
+        padding: 10px 25px 0;
+    }
+    .Btn-1 {
+        font-size: 24px;
+        display: inline-block;
+        margin-top: 25px;
+    }
+    .specials-img {
+        padding-bottom: 10px;
+    }
+    h4 {
+       font-size: 24px; 
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    .description {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    h6 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .ingredients {
+        font-size: 12px;
+    }
+    .col-2 {
+        flex-basis: 50%;
+        padding: 0 25px;
+    }
+    .col-5 {
+        flex-basis: 100%;
+        padding: 0 25px;
+    }
+    .bakery-img {
+        padding-bottom: 10px;
+    }
+    .padded {
+        padding: 0;
+    }
+
+    /* footer */
+
+    .flex-container{
+        flex-wrap: wrap;
+    }
+
+    .col-4 {
+        flex-basis: 50%;
+        padding: 0 25px;
+    }
+
+}
